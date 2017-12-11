@@ -14,6 +14,7 @@
 
         <Button
             android:id="@+id/btn_number_seven"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -21,6 +22,7 @@
 
         <Button
             android:id="@+id/btn_number_eight"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -28,6 +30,7 @@
 
         <Button
             android:id="@+id/btn_number_nine"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -35,6 +38,7 @@
 
         <Button
             android:id="@+id/btn_operator_divide"
+            style="@style/ButtonOperation"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -50,6 +54,7 @@
 
         <Button
             android:id="@+id/btn_number_four"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -57,6 +62,7 @@
 
         <Button
             android:id="@+id/btn_number_five"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -64,6 +70,7 @@
 
         <Button
             android:id="@+id/btn_number_six"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -71,6 +78,7 @@
 
         <Button
             android:id="@+id/btn_operator_multiply"
+            style="@style/ButtonOperation"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -86,6 +94,7 @@
 
         <Button
             android:id="@+id/btn_number_one"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -93,6 +102,7 @@
 
         <Button
             android:id="@+id/btn_number_two"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -100,6 +110,7 @@
 
         <Button
             android:id="@+id/btn_number_three"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -107,6 +118,7 @@
 
         <Button
             android:id="@+id/btn_operator_subtract"
+            style="@style/ButtonOperation"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -122,6 +134,7 @@
 
         <Button
             android:id="@+id/btn_number_zero"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -129,6 +142,7 @@
 
         <Button
             android:id="@+id/btn_decimal"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -136,6 +150,7 @@
 
         <Button
             android:id="@+id/btn_evaluate"
+            style="@style/ButtonNumberPad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -143,11 +158,13 @@
 
         <Button
             android:id="@+id/btn_operator_add"
+            style="@style/ButtonOperation"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="+" />
 
     </LinearLayout>
+
 
 </LinearLayout>
