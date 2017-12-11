@@ -7,16 +7,14 @@
     android:orientation="vertical"
     tools:context=".CalculatorActivity">
 
-    <fragment
+    <FrameLayout
         android:id="@+id/frag_display"
-        android:name="com.reza.calculator.DisplayFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_display" />
 
-    <fragment
+    <FrameLayout
         android:id="@+id/frag_input"
-        android:name="com.reza.calculator.InputFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

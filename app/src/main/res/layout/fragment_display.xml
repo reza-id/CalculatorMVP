@@ -28,8 +28,7 @@
             style="@style/TextViewDisplay"
             android:layout_width="wrap_content"
             android:layout_height="72dp"
-            android:layout_gravity="end"
-            android:text="985+600" />
+            android:layout_gravity="end" />
 
     </HorizontalScrollView>
 </RelativeLayout>
