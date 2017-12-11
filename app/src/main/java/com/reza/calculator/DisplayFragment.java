@@ -17,7 +17,7 @@ import butterknife.OnLongClick;
  * Created by reza on 12/11/17.
  */
 
-public class DisplayFragment extends Fragment {
+public class DisplayFragment extends Fragment implements CalculatorMVP.PublishToView {
 
     @BindView(R.id.lbl_display) TextView tvDisplay;
 
@@ -43,5 +43,15 @@ public class DisplayFragment extends Fragment {
     @OnLongClick(R.id.imb_delete)
     public boolean onDeleteLongClick(View v){
         return true;
+    }
+
+    @Override
+    public void showResult(String result) {
+
+    }
+
+    @Override
+    public void showToastMessage(String message) {
+
     }
 }
