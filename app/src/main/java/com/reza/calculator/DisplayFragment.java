@@ -21,6 +21,12 @@ public class DisplayFragment extends Fragment implements CalculatorMVP.PublishTo
 
     @BindView(R.id.lbl_display) TextView tvDisplay;
 
+    private CalculatorMVP.ForwardDisplayInteractionToPresenter forwardInteraction;
+
+    public void setPresenter(CalculatorMVP.ForwardDisplayInteractionToPresenter forwardInteraction) {
+        this.forwardInteraction = forwardInteraction;
+    }
+
     public DisplayFragment() {}
 
     public static DisplayFragment newInstance(){
@@ -37,11 +43,12 @@ public class DisplayFragment extends Fragment implements CalculatorMVP.PublishTo
 
     @OnClick(R.id.imb_delete)
     public void onDeleteShortClick(View v){
-
+        forwardInteraction.onDeleteShortClick();
     }
 
     @OnLongClick(R.id.imb_delete)
     public boolean onDeleteLongClick(View v){
+        forwardInteraction.onDeleteLongClick();
         return true;
     }
 
