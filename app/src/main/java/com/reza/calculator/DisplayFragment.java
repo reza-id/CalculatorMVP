@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -54,11 +55,11 @@ public class DisplayFragment extends Fragment implements CalculatorMVP.PublishTo
 
     @Override
     public void showResult(String result) {
-
+        tvDisplay.setText(result);
     }
 
     @Override
     public void showToastMessage(String message) {
-
+        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
     }
 }
